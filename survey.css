@@ -1,0 +1,74 @@
+body {
+  background-image: url(https://sun9-west.userapi.com/sun9-53/s/v1/ig2/fNj0wymV5iCpWoxa9iACKsJoaUr0eAtOtwSWl3oBNvip3ehV4q279cyJZfqF8MeHlCzjI2NXpcrTIXRRO_OV8hBc.jpg?size=735x925&quality=95&type=album);
+  color: #b0554f;
+  font-family: monospace;
+  font-size: 15;
+  font-weight: bold;
+}
+
+h1, p {
+  margin: 20 auto;
+  width: 90%;
+  text-align: center;
+  background-color: rgb(255, 255, 255, 0.8);
+  border-radius: 13%;
+}
+
+.fitting {
+  width: 100%;
+  max-width: 500px;
+  margin: 20px 0;
+}
+
+placeholder {
+  color: #1f84e0;
+}
+
+input, select {
+  border: 2px;
+  background-color: white;
+  color: #218bde;
+  min-height: 30px;
+  margin: 2em auto;
+}
+
+::placeholder {
+  color: #218bde;
+  font-family: monospace;
+}
+
+textarea {
+  color: #218bde;
+  font-family: monospace;
+  min-width: 500px;
+  min-height: 100px;
+  border-radius: 5%;
+  text-align: center;
+}
+
+fieldset {
+  background-color: rgb(255, 255, 255, 0.8);
+  border-radius: 3%;
+  border: none;
+  padding: 10px 10px;
+  margin: 2em
+}
+
+.oneliner {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+#break::before {
+    content: "\a";
+    white-space: pre;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 90%;
+  text-align: center;
+  background-color: rgb(255, 255, 255, 0.8);
+  border-radius: 3%;
+}

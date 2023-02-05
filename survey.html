@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="survey.css" />
+  </head>
+<body>
+  <h1 id="title">
+     <title>Some Survey for the test</title>
+     Very important Survey
+  </h1>
+
+ <p id="description">You know... right?</p>
+
+<form id="survey-form">
+  <fieldset>
+    <label id="name-label" for="name" class="oneliner">
+      Is this your first question? <input class="fitting" class="oneliner" placeholder="Yeah... tell me your name..." id="name" type= "text" required/>
+    </label>
+     <label for="personal trait" class="oneliner">
+      Will there be the second one? <input class="fitting" id="personal trait" placeholder="What's your best quality?" type= "text" required/>
+    </label>
+     <label for="self-respect">
+      Well, it was tought, right? <input class="fitting" id="self-respect" placeholder="Or not?" required/>
+    </label>
+     <label id="email-label" for="email">
+      I hope we're finished by now <input class="fitting" placeholder="Yes, but leave me your email" id="email" type="email" required/>
+    </label>
+     <label id="number-label" for="age">
+      What else? <input class="fitting" placeholder="How old are you btw?" type="number" id="number" min="14" max="109" required/></label>
+
+  <select id="dropdown" class="oneliner">
+  <option>YOU CAN TAP HERE, HEY</option>
+  <option>Choose me</option>
+  <option>Don't choose it</option>
+  <option>Whatever</option>
+  </select> 
+  </fieldset>
+
+  <fieldset>Would you like to get out of this place?
+  <label for="getting out" id="break">
+    <input name="decision" type="radio" value="1" class="oneliner"/>Yes</label>
+     <label id="break"><input name="decision" type="radio" value="2"  class="oneliner"/>Of course YES</label>
+      <label id="break"><input name="decision" type="radio" value="3" class="oneliner"/>Maybe a little bit later
+  </label>
+  </fieldset>
+  
+  <fieldset>
+    <label for="reasons to leave" id="break">
+    Why do you enjoy it here?</label>
+     <label for="reasons to leave" id="break"><input type="checkbox" value="1"/class="oneliner">There's a real nice background</label>
+   <label for="reasons to leave" id="break"><input type="checkbox" value="2"/class="oneliner">It's too obvious, not gonna explain</label>
+   <label for="reasons to leave" id="break"><input type="checkbox" value="3"class="oneliner"/>Are you even Serious</label>
+   <label for="reasons to leave" id="break"><input type="checkbox"
+value="4"class="oneliner"/>Or are you Black?</label>
+   <label for="reasons to leave" id="break"><input type="checkbox" value="5" class="oneliner"/>Harry Potter broke many lives...</label>
+  <label for="reasons to leave" id="break"><input type="checkbox"value="6" class="oneliner"/>It's cozy in the morning</label>
+  <label id="break">There's nothing else to say, really... but
+    <textarea>Is there?
+    </textarea>
+  </label>
+  </fieldset>
+
+   <input type="submit" value="Submit" id="submit"/>
+</form>
+
+</body>
